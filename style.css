@@ -1,0 +1,119 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(./Norse-Bold.otf.ttf);
+   font-weight: bold;
+}
+
+*{
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: myFirstFont;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.left{
+  width: 35vw;
+  background-image: url(./images/bg.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.right{
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f6f6;
+}
+.first{
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.first p{
+  font-weight: bold;
+}
+.second{
+  height: 33vh;
+  background-color: white;
+}
+h3{
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 30px;
+}
+.form-main-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  width: 80%;
+}
+.form-div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input{
+  width: 200px;
+  border: 1px solid #E5E7EB;
+  height: 25px;
+  border-radius:5px;
+  outline: none;
+}
+input:focus{
+  border: 1px solid blue;
+  box-shadow: 1px 3px 10px #888888;
+}
+input:invalid{
+  border: 1px solid red;
+}
+.bortom-main{
+  margin-left: 15px;
+}
+button{
+  background-color: #596D48;
+  margin:25px;
+  width:150px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  box-shadow: 1px 3px 10px #888888;
+}
+.link p{
+  margin-left: 25px;
+}
+.link a{
+  text-decoration: none;
+  color: #596D48;
+}
+label{
+  font-size: 10px;
+}
+
+.odin-img,.odin{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.odin{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  padding:10px;
+}
+.odin-img{
+  height: 100vh;
+}
